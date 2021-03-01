@@ -24,5 +24,18 @@ namespace EersteProjectGitHub
         {
             InitializeComponent();
         }
+        int count = 0;
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            lblResult.Content = "Hello World";
+        }
+
+        private void btnCounter_Click(object sender, RoutedEventArgs e)
+        {
+            count++;
+
+            lblCounter.Content = count.ToString();
+        }
     }
 }
