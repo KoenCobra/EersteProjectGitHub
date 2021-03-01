@@ -36,6 +36,7 @@ namespace EersteProjectGitHub
             count++;
 
             lblCounter.Content = count.ToString();
+            //hu
         }
     }
 }
